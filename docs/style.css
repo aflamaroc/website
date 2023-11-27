@@ -1,0 +1,80 @@
+/* a *not* minimalist set of CSS resets */
+body{
+  background-color: #000000;
+  background: black;
+}
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+}
+#capcha{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}​
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1{
+  color: rgb(0, 0, 251);
+}
+p,h2,h3,h4{
+  color: rgb(0, 0, 251);
+  font-family: sans-serif;
+}
+
+/* The title */
+#Title {
+  text-size-adjust: 40%;
+  border: 10px inset red;
+  padding: none;
+  background: rgb(104, 1, 1);
+  text-align: center;
+  color:blue;
+  text-shadow: 3px 4px rgb(0, 0, 0);
+  font-family: monospace;
+}
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.links{
+  text-align: center;
+  font-size: auto;
+  display: inline-block;
+}
+
+a{
+  color: rgb(120, 14, 14);
+}
+
+a:hover{
+  color:rgb(116, 15, 136);
+}
+
+a:active{
+  color:yellow
+}
+
+div#desc {
+  color: rgb(104, 1, 1);
+}
